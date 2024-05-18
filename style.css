@@ -4193,7 +4193,7 @@ ul {
   margin-bottom: 20px;
 }
 .qna-section-seven .qna-dropdown-item .question .question-title {
-  color: #252525;
+  color: #316ffb;
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
@@ -7272,6 +7272,7 @@ ul {
 }
 .accordion__area {
   position: relative;
+  padding-bottom: 100px;
 }
 .accordion__area .accordion__wrapper-1 h2 {
   font-size: 44px;
@@ -7396,6 +7397,23 @@ ul {
   margin: 0;
   padding: 0 15px 24px;
 }
+.work-area-btn{
+  font-size: 15px;
+  font-weight: 400;
+  color: #5b5f64;
+  margin: 0;
+  padding: 0 15px 24px;
+}
+
+.work-area-btn a:hover{
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  margin: 0;
+  padding: 0 15px 24px;
+}
+
+
 .instructor__area .Instructor_container {
   max-width: 1590px;
 }
