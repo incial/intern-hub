@@ -143,7 +143,7 @@ h6 {
   font-size: 14px;
 }
 a {
-  color: #3270fc;
+  color: #7ca403;
   transition: all 0.5s ease 0s;
   text-decoration: none !important;
   outline: 0 !important;
@@ -214,7 +214,7 @@ ul {
 .react__title__section h2 {
   font-size: 50px;
   font-weight: 700;
-  color: #00306e;
+  color: #6a8b04;
   margin: 0;
   line-height: 54px;
 }
@@ -451,11 +451,11 @@ ul {
   font-family: "Source Sans Pro", sans-serif;
 }
 .react-header .react-menus li a {
-  color: #00306e;
+  color: #638106;
 }
 .react-header .react-menus li a.react-current-page,
 .react-header .react-menus li a:hover {
-  color: #d2093c !important;
+  color: #638106 !important;
 }
 .react-header .react-main-menu {
   position: relative;
@@ -3766,7 +3766,7 @@ ul {
   opacity: 0.9;
 }
 .home-seven-btn {
-  background: #316ffb;
+  background: #97be23;
   border: none;
   padding: 15px 40px;
   border-radius: 5px;
@@ -3777,7 +3777,7 @@ ul {
   font-size: 20px;
 }
 .home-seven-btn:hover {
-  background: #4a80ff !important;
+  background: #7d9a1b !important;
 }
 .home-sliders.home7 {
   margin-bottom: 105px;
@@ -4182,7 +4182,7 @@ ul {
   left: 0;
   width: 40px;
   height: 2px;
-  background: #316ffb;
+  background: #97be23;
 }
 .qna-section-seven .qna-dropdown-item {
   margin-bottom: 20px;
@@ -4193,7 +4193,7 @@ ul {
   margin-bottom: 20px;
 }
 .qna-section-seven .qna-dropdown-item .question .question-title {
-  color: #316ffb;
+  color: #97be23;
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
@@ -4235,7 +4235,7 @@ ul {
   transform: translateY(-18px);
 }
 .qna-section-seven .qna-dropdown-item.show .question-title {
-  color: #316ffb;
+  color: #97be23;
 }
 .qna-section-seven .qna-dropdown-item.show .answer {
   height: 60px;
@@ -6750,12 +6750,13 @@ ul {
   margin: 0 0 10px;
   line-height: 54px;
 }
-.react__title__section-all h6 {
-  font-size: 16px;
+.react__title__section-all h4 {
+  font-size: 22px;
   line-height: 20px;
-  color: #d2093c;
+  color:  #638106;
   font-weight: 600;
   margin: 0 0 12px;
+  padding-bottom: 25px;
 }
 .react_popular_topics .item__inner {
   position: relative;
@@ -7284,7 +7285,7 @@ ul {
 .accordion__area .accordion__wrapper-1 h6 {
   font-size: 16px;
   line-height: 20px;
-  color: #d2093c;
+  color: #638106;
   font-weight: 600;
   margin: 0;
 }
@@ -7373,19 +7374,19 @@ ul {
 }
 .accordion__area.accordion__area .accordion-button:not(.collapsed) {
   background: 0 0;
-  color: #3270fc;
+  color: #97be23;
   font-size: 20px;
 }
 .accordion__area.accordion__area .accordion-button:not(.collapsed):after {
-  color: #3270fc;
+  color: #97be23;
 }
 .accordion__area.accordion__area .accordion-button:hover {
   background: 0 0;
-  color: #3270fc;
+  color: #6e8b19;
   font-size: 20x;
 }
 .accordion__area.accordion__area .accordion-button:hover:after {
-  color: #3270fc;
+  color: #97be23;
 }
 .accordion__area .accordion .accordion-body {
   padding-top: 0;
@@ -11785,7 +11786,10 @@ body.event-page .react-upcoming__event .event__card .event_time {
   animation: hero-leaf-2 3s linear infinite alternate;
 }
 .high_quality-section .react-tab-gird .nav-tabs {
-  display: flex;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
   border: none;
   justify-content: center;
 }
@@ -12190,7 +12194,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   height: 100px;
   border-style: solid;
   border-width: 5px;
-  border-color: #465fe9 #465fe9 #d5eaff #d5eaff;
+  border-color: #97be23 #97be23 #f0fad4 #f0fad4;
   border-radius: 50%;
   -webkit-animation: spinLoader 2s linear infinite;
   animation: spinLoader 2s linear infinite;
@@ -12223,7 +12227,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   z-index: 99999;
   cursor: pointer;
   display: none;
-  background: #3270fc;
+  background: #97be23;
   border-radius: 3px;
 }
 #backscrollUp.home {
