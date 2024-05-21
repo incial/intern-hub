@@ -455,7 +455,7 @@ ul {
 }
 .react-header .react-menus li a.react-current-page,
 .react-header .react-menus li a:hover {
-  color: #638106 !important;
+  color: #000000 !important;
 }
 .react-header .react-main-menu {
   position: relative;
@@ -630,7 +630,7 @@ ul {
   height: 40px;
 }
 .react-header.react-header-four .react-menus li a:hover {
-  color: #3270fc !important;
+  color: #638106 !important;
 }
 .react-header.react-header-four .react-menus li ul {
   background: #000;
@@ -4579,12 +4579,21 @@ ul {
 .hero4__area {
   overflow: hidden;
   position: relative;
-  background: url(assets/images/hero/01.png) center top no-repeat;
+  background: url(assets/images/hero/01.jpg) center top no-repeat;
   background-size: cover;
+  height: 595px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 .hero4__area .container.hero4__width {
-  max-width: 1200px;
+  margin-left: 385px;
+  max-width: 800px;
+  margin-top: 300px;
+  display: flex;
+  justify-content: start;
 }
+
 .hero4__area .container.hero4__width .row {
   align-items: center;
 }
@@ -4653,20 +4662,20 @@ ul {
   padding-bottom: 16px;
 }
 .hero4__area .hero4__content .hero4-btn {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 600;
   border-radius: 6px;
-  background: #fff;
-  padding: 14px 35px;
-  color: #0f1216;
+  background: #97be23;
+  padding: 10px 35px;
+  color: white;
   display: inline-block;
-  margin-top: 0;
-  line-height: 20px;
-  margin-right: 25px;
 }
 .hero4__area .hero4__content .hero4-btn:hover {
-  background: #3270fc;
-  color: #fff;
+  background: white;
+  color: #97be23;
+  border: #97be23;
+  border-style: solid;
+  border-width: 3px;
 }
 .hero4__area .hero4__image {
   padding-top: 90px;
@@ -12419,7 +12428,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 .navbar-apply p {
   margin: 0;
-  border: #00306e;
+  border: #638106;
   border-style: solid;
   border-width: 3px;
   border-radius: 7px;
@@ -12430,9 +12439,16 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .navbar-apply p:hover {
   cursor: pointer;
   margin: 0;
-  border: #d2093c;
+  border: #638106;
   border-style: solid;
   border-width: 3px;
   border-radius: 7px;
   padding: 8px 20px;
+  background-color: #638106;
+  color: white;
+}
+
+.navLogo {
+  height: 90px;
+  margin-top: 15px;
 }
