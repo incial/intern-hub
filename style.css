@@ -7214,6 +7214,7 @@ ul {
 }
 .react_featured_online .container {
   max-width: 1200px;
+  padding-bottom: 50px;
 }
 .react_featured_online .container .border-btns {
   font-size: 16px;
