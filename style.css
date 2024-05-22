@@ -211,7 +211,6 @@ ul {
 .react__title__section {
   padding-bottom: 30px;
 }
-<<<<<<< HEAD
 .natureship{
   font-size: 30px;
   font-weight: 700;
@@ -219,8 +218,6 @@ ul {
   margin: 0;
   padding-bottom: 50px;
 }
-=======
->>>>>>> 1814422f6b226de003b0df20ccc910d798de116a
 .react__title__section h2 {
   font-size: 50px;
   font-weight: 700;
@@ -1337,7 +1334,6 @@ ul {
     font-size: 16px;
     line-height: 0 !important;
   }
-<<<<<<< HEAD
   .natureship{
     font-size: 22px;
     font-weight: 700;
@@ -1353,12 +1349,6 @@ ul {
 
 
 
-=======
-  .home-five.section-title-area .section-title {
-    font-size: 30px;
-    line-height: 40px;
-  }
->>>>>>> 1814422f6b226de003b0df20ccc910d798de116a
 }
 .home-five.banner {
   position: relative;
@@ -1963,14 +1953,11 @@ ul {
 .home-five.trending-section-five .btn-area .all-course-btn:hover {
   background: #4d82ff;
 }
-<<<<<<< HEAD
 .outcomesscroll-head{
   color: #233913 !important;
   font-size: 23px;
   font-weight: 800;
 }
-=======
->>>>>>> 1814422f6b226de003b0df20ccc910d798de116a
 @media (max-width: 1400px) {
   .home-five.trending-section-five .trending-card .price-tag {
     top: 150px;
@@ -6769,11 +6756,7 @@ ul {
   max-width: 1350px;
   margin: 0 auto;
   padding-top: 100px;
-<<<<<<< HEAD
   padding-bottom: 100px;
-=======
-  padding-bottom: 200px;
->>>>>>> 1814422f6b226de003b0df20ccc910d798de116a
   border-radius: 10px;
 }
 .react_populars_topics.react_populars_topics_about .container {
@@ -11599,13 +11582,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .student_satisfaction-section {
   background: url(assets/images/testimonial/bg.jpg) center top no-repeat;
   background-size: cover;
-<<<<<<< HEAD
   padding-top: 10px;
  
-=======
-  padding-top: 100px;
-  padding-bottom: 100px;
->>>>>>> 1814422f6b226de003b0df20ccc910d798de116a
 }
 .student_satisfaction-section .event__card .event__card--content {
   background: #fff;
@@ -11739,13 +11717,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"]:hover {
   color: #fff;
-<<<<<<< HEAD
   background: #97be23;
   border-color: #97be23;
-=======
-  background: #3270fc;
-  border-color: #3270fc;
->>>>>>> 1814422f6b226de003b0df20ccc910d798de116a
 }
 .student_satisfaction-section .count__area2 {
   padding-top: 90px;
@@ -11843,7 +11816,6 @@ body.event-page .react-upcoming__event .event__card .event_time {
   border: none;
   justify-content: center;
 }
-<<<<<<< HEAD
 @media (max-width: 576px) {
   .high_quality-section .react-tab-gird .nav-tabs {
     display: block;
@@ -11851,8 +11823,6 @@ body.event-page .react-upcoming__event .event__card .event_time {
   }
 
   }
-=======
->>>>>>> 1814422f6b226de003b0df20ccc910d798de116a
 .high_quality-section .react-tab-gird .nav-tabs li a {
   display: flex;
   background: #fff;
