@@ -4587,9 +4587,10 @@ ul {
   align-items: center;
 }
 .hero4__area .container.hero4__width {
-  margin-left: 385px;
+  width: 100vw;
+  margin-left: 25%;
   max-width: 800px;
-  margin-top: 300px;
+  margin-top: 280px;
   display: flex;
   justify-content: start;
 }
@@ -4654,21 +4655,23 @@ ul {
 .hero4__area .event__video-btn--plays .event__videos:hover em {
   color: #3270fc;
 }
-.hero4__area .hero4__content p {
+.hero4__area .hero4__content h1 {
   font-size: 30px;
   line-height: 35px;
   font-weight: 400;
   color: #fff;
   padding-bottom: 16px;
+  display: none;
 }
 .hero4__area .hero4__content .hero4-btn {
   font-size: 25px;
   font-weight: 600;
-  border-radius: 6px;
+  border-radius: 50px;
   background: #97be23;
-  padding: 10px 35px;
+  padding: 10px 45px;
   color: white;
   display: inline-block;
+  box-shadow: 2px 2px 15px #97be23;
 }
 .hero4__area .hero4__content .hero4-btn:hover {
   background: white;
