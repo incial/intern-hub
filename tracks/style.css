@@ -498,6 +498,7 @@ a {
   right: 16px;
   top: 16px;
 }
+
 .project-boxes.jsListView .project-box-content-header {
   order: 1;
   max-width: 120px;
@@ -719,7 +720,7 @@ a {
 
 @media screen and (max-width: 980px) {
   .project-boxes.jsGridView .project-box-wrapper {
-    width: 50%;
+    width: 100%;
   }
 
   .status-number,
@@ -851,13 +852,13 @@ a {
   }
 
   .box-content-header {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 25px;
+    line-height: 34px;
   }
 
   .box-content-subheader {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .project-boxes.jsListView .project-box-header > span {
@@ -873,8 +874,8 @@ a {
   }
 
   .days-left {
-    font-size: 8px;
-    padding: 6px 6px;
+    font-size: 18px;
+    padding: 7px 16px;
     text-align: center;
   }
 
