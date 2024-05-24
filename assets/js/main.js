@@ -786,10 +786,10 @@ $('#image-popups').magnificPopup({
 
 
 // Home Seven QNA Dropdown
-$(document).on('click', '.question', function(){
-  var element = $(this).parent(".qna-dropdown-item");
-  element.toggleClass('show').siblings().removeClass('show')
-})
+// $(document).on('click', '.question', function(){
+//   var element = $(this).parent(".qna-dropdown-item");
+//   element.toggleClass('show').siblings().removeClass('show')
+// })
 
 
 })(jQuery);
