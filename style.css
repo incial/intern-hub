@@ -4091,6 +4091,7 @@ ul {
     max-width: 320px;
   }
 }
+
 .section-title-area-seven .section-pretitle {
   color: #252525;
   font-size: 20px;
@@ -4116,6 +4117,7 @@ ul {
   line-height: 60px;
   transform: translateY(-10px);
 }
+
 @media (max-width: 1200px) {
   .section-title-area-seven .section-pretitle {
     font-size: 20px;
@@ -10116,6 +10118,71 @@ body.courses-grid-page
   position: relative;
   top: 6px;
 }
+.industry-connect-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.submit-problem-statement-btn {
+  display: inline-block;
+  background-color: #9bbc24;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  outline: none;
+  border: none;
+}
+
+.submit-problem-statement-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.submit-problem-statement-btn:hover {
+  background-color: #84ae1e;
+}
+/*.industry-connect-section .section-title-area-seven {
+  
+}*/
+
+.industry-connect-section .section-title {
+  /* Adjust styles specific to this section */
+  color: #252525;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  transform: translateY(-10px);
+}
+.qna-picture img {
+  border-radius: 10px; /* Adjust the border-radius value as needed */
+  max-width: 90%; 
+}
+@media (max-width: 1200px) {
+  .industry-connect-section .section-title-area-seven .section-pretitle {
+    font-size: 20px;
+  }
+  .industry-connect-section .section-title-area-seven .section-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .industry-connect-section .section-title-area-seven {
+    margin-bottom: 30px !important;
+  }
+  .industry-connect-section .section-title-area-seven .section-pretitle {
+    font-size: 16px;
+    line-height: 0 !important;
+  }
+  .industry-connect-section .section-title-area-seven .section-title {
+    font-size: 30px;
+    line-height: 40px;
+    transform: translateY(-20px);
+  }
+}
+
+
 .react-contact-page h2.contact-title {
   font-size: 34px;
   color: #0f1216;
@@ -11600,6 +11667,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   background: url(assets/images/testimonial/bg.jpg) center top no-repeat;
   background-size: cover;
   padding-top: 10px;
+  padding-bottom: 0px;
  
 }
 .student_satisfaction-section .event__card .event__card--content {
@@ -11738,7 +11806,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
   border-color: #97be23;
 }
 .student_satisfaction-section .count__area2 {
-  padding-top: 90px;
+  padding-top: 5px;
+  padding-bottom: 0px;
 }
 .student_satisfaction-section .count__area2 .container {
   border-top: 1px solid rgba(15, 18, 22, 0.08);
@@ -11878,7 +11947,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   line-height: 0;
 }
 .react-footer {
-  position: relative;
+  position:relative;
   background-color: #0f1216;
   color: #fff;
 }
@@ -11929,7 +11998,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   color: #0f1216;
 }
 .react-footer .footer-top {
-  padding: 100px 0 93px;
+  padding: 0px 0 5px;
 }
 .react-footer .footer-top .footer-menu li {
   margin-bottom: 2px;
@@ -12030,10 +12099,12 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 .react-footer .footer-top .footer-widget-1 {
   margin-top: -10px;
+  padding: 5px 0 0px;
 }
 /* Adjust the margin-top for the first widget */
 .react-footer .footer-top .footer-widget-1 {
   margin-top: -10px;
+  padding-top: 5px;
 }
 .react-footer .footer-top .footer-widget-2 {
   margin-left: auto;
@@ -12045,7 +12116,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
 
 /* Adjust the padding-left for the second widget */
 .react-footer .footer-top .footer-widget.footer-widget-2 {
-  padding-left: 100px;
+  padding-left: 850px;
+  padding-top: 150px;
 }
 
 /* Style for footer titles */
