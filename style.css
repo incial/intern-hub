@@ -631,6 +631,8 @@ ul {
   height: 0;
   padding: 0 10px;
   transition: 500ms;
+  
+
 }
 .react-header.react-header-four .search-form .search-input.show {
   padding: 5px 10px;
