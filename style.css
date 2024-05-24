@@ -10254,6 +10254,10 @@ body.courses-grid-page
 .react-contact-page .address-sec li .icon {
   margin-right: 25px;
 }
+.react-contact-page .address-sec li .icon img {
+  width: 30px;  /* Set your desired width */
+  height: 30px; /* Set your desired height */
+}
 .react-contact-page .address-sec li .text {
   font-size: 16px;
   line-height: 24px;
@@ -12027,12 +12031,24 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .react-footer .footer-top .footer-widget-1 {
   margin-top: -10px;
 }
+/* Adjust the margin-top for the first widget */
+.react-footer .footer-top .footer-widget-1 {
+  margin-top: -10px;
+}
+.react-footer .footer-top .footer-widget-2 {
+  margin-left: auto;
+}
+/* Adjust the margin-left for the third widget */
 .react-footer .footer-top .footer-widget-3 {
   margin-left: 50px;
 }
+
+/* Adjust the padding-left for the second widget */
 .react-footer .footer-top .footer-widget.footer-widget-2 {
   padding-left: 100px;
 }
+
+/* Style for footer titles */
 .react-footer .footer-top .footer-widget .footer-title {
   margin-bottom: 30px;
   position: relative;
@@ -12041,9 +12057,13 @@ body.event-page .react-upcoming__event .event__card .event_time {
   font-weight: 700;
   line-height: 24px;
 }
+
+/* Style for footer addresses */
 .react-footer .footer-top .footer-widget .footer-address {
   margin-bottom: 30px;
 }
+
+/* Style for footer address list items */
 .react-footer .footer-top .footer-widget .footer-address li {
   width: 100%;
   font-size: 15px;
@@ -12052,15 +12072,20 @@ body.event-page .react-upcoming__event .event__card .event_time {
   color: #b7b7b9;
   font-weight: 600;
 }
+
+/* Style for footer address links */
 .react-footer .footer-top .footer-widget .footer-address li a {
   color: #b7b7b9;
   margin-left: 10px;
   line-height: 24px;
   font-size: 18px;
 }
+
+/* Hover style for footer address links */
 .react-footer .footer-top .footer-widget .footer-address li a:hover {
   color: #3270fc;
 }
+
 .react-footer .footer-top .footer-widget .footer-address li svg {
   position: relative;
   top: 0;
