@@ -455,7 +455,7 @@ ul {
 }
 .react-header .react-menus li a.react-current-page,
 .react-header .react-menus li a:hover {
-  color: #638106 !important;
+  color: #000000 !important;
 }
 .react-header .react-main-menu {
   position: relative;
@@ -630,7 +630,7 @@ ul {
   height: 40px;
 }
 .react-header.react-header-four .react-menus li a:hover {
-  color: #3270fc !important;
+  color: #638106 !important;
 }
 .react-header.react-header-four .react-menus li ul {
   background: #000;
@@ -4579,12 +4579,22 @@ ul {
 .hero4__area {
   overflow: hidden;
   position: relative;
-  background: url(assets/images/hero/01.png) center top no-repeat;
+  background: url(assets/images/hero/01.jpg) center top no-repeat;
   background-size: cover;
+  height: 595px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 .hero4__area .container.hero4__width {
-  max-width: 1200px;
+  width: 100vw;
+  margin-left: 25%;
+  max-width: 800px;
+  margin-top: 280px;
+  display: flex;
+  justify-content: start;
 }
+
 .hero4__area .container.hero4__width .row {
   align-items: center;
 }
@@ -4645,28 +4655,30 @@ ul {
 .hero4__area .event__video-btn--plays .event__videos:hover em {
   color: #3270fc;
 }
-.hero4__area .hero4__content p {
-  font-size: 18px;
-  line-height: 28px;
+.hero4__area .hero4__content h1 {
+  font-size: 30px;
+  line-height: 35px;
   font-weight: 400;
   color: #fff;
   padding-bottom: 16px;
+  display: none;
 }
 .hero4__area .hero4__content .hero4-btn {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 600;
-  border-radius: 6px;
-  background: #fff;
-  padding: 14px 35px;
-  color: #0f1216;
+  border-radius: 50px;
+  background: #97be23;
+  padding: 10px 45px;
+  color: white;
   display: inline-block;
-  margin-top: 0;
-  line-height: 20px;
-  margin-right: 25px;
+  box-shadow: 2px 2px 15px #97be23;
 }
 .hero4__area .hero4__content .hero4-btn:hover {
-  background: #3270fc;
-  color: #fff;
+  background: white;
+  color: #97be23;
+  border: #97be23;
+  border-style: solid;
+  border-width: 3px;
 }
 .hero4__area .hero4__image {
   padding-top: 90px;
@@ -6751,12 +6763,11 @@ ul {
   line-height: 54px;
 }
 .react__title__section-all h4 {
-  font-size: 22px;
+  font-size: 16px;
   line-height: 20px;
-  color:  #638106;
+  color: #638106;
   font-weight: 600;
   margin: 0 0 12px;
-  padding-bottom: 25px;
 }
 .react_popular_topics .item__inner {
   position: relative;
@@ -7398,7 +7409,7 @@ ul {
   margin: 0;
   padding: 0 15px 24px;
 }
-.work-area-btn{
+.work-area-btn {
   font-size: 15px;
   font-weight: 400;
   color: #5b5f64;
@@ -7406,14 +7417,13 @@ ul {
   padding: 0 15px 24px;
 }
 
-.work-area-btn a:hover{
+.work-area-btn a:hover {
   font-size: 15px;
   font-weight: 400;
   color: grey;
   margin: 0;
   padding: 0 15px 24px;
 }
-
 
 .instructor__area .Instructor_container {
   max-width: 1590px;
@@ -12412,4 +12422,36 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 .react-login-page .row.align-center {
   align-items: center;
+}
+/* STYLES FROM HELIXJOE */
+.navbar-apply {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-apply p {
+  margin: 0;
+  border: #638106;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 7px;
+  padding: 8px 20px;
+  transition: #00306e 0.3s ease-in 1s;
+}
+
+.navbar-apply p:hover {
+  cursor: pointer;
+  margin: 0;
+  border: #638106;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 7px;
+  padding: 8px 20px;
+  background-color: #638106;
+  color: white;
+}
+
+.navLogo {
+  height: 90px;
+  margin-top: 15px;
 }
