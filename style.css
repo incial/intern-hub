@@ -10228,6 +10228,10 @@ body.courses-grid-page
 .react-contact-page .address-sec li .icon {
   margin-right: 25px;
 }
+.react-contact-page .address-sec li .icon img {
+  width: 30px;  /* Set your desired width */
+  height: 30px; /* Set your desired height */
+}
 .react-contact-page .address-sec li .text {
   font-size: 16px;
   line-height: 24px;
