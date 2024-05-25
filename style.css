@@ -211,7 +211,7 @@ ul {
 .react__title__section {
   padding-bottom: 30px;
 }
-.natureship{
+.natureship {
   font-size: 30px;
   font-weight: 700;
   color: #6a8b04;
@@ -631,8 +631,6 @@ ul {
   height: 0;
   padding: 0 10px;
   transition: 500ms;
-  
-
 }
 .react-header.react-header-four .search-form .search-input.show {
   padding: 5px 10px;
@@ -1336,7 +1334,7 @@ ul {
     font-size: 16px;
     line-height: 0 !important;
   }
-  .natureship{
+  .natureship {
     font-size: 22px;
     font-weight: 700;
     color: #6a8b04;
@@ -1347,10 +1345,6 @@ ul {
     display: block;
     width: 100%;
   }
- 
-
-
-
 }
 .home-five.banner {
   position: relative;
@@ -1955,7 +1949,7 @@ ul {
 .home-five.trending-section-five .btn-area .all-course-btn:hover {
   background: #4d82ff;
 }
-.outcomesscroll-head{
+.outcomesscroll-head {
   color: #233913 !important;
   font-size: 23px;
   font-weight: 800;
@@ -4702,8 +4696,7 @@ ul {
   background: white;
   color: #97be23;
   border: #97be23;
-  border-style: solid;
-  border-width: 3px;
+  border-style: none;
 }
 .hero4__area .hero4__image {
   padding-top: 90px;
@@ -11596,7 +11589,6 @@ body.event-page .react-upcoming__event .event__card .event_time {
   background: url(assets/images/testimonial/bg.jpg) center top no-repeat;
   background-size: cover;
   padding-top: 10px;
- 
 }
 .student_satisfaction-section .event__card .event__card--content {
   background: #fff;
@@ -11834,8 +11826,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
     display: block;
     width: 100%;
   }
-
-  }
+}
 .high_quality-section .react-tab-gird .nav-tabs li a {
   display: flex;
   background: #fff;
