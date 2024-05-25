@@ -1344,8 +1344,8 @@ ul {
     padding-bottom: 50px;
   }
   .high_quality-section .react-tab-gird .nav-tabs {
-    display: block;
-    width: 100%;
+  
+
   }
  
 
@@ -11829,19 +11829,34 @@ body.event-page .react-upcoming__event .event__card .event_time {
   border: none;
   justify-content: center;
 }
-@media (max-width: 576px) {
-  .high_quality-section .react-tab-gird .nav-tabs {
-    display: block;
-    width: 100%;
+  @media (max-width: 576px) {
+    .high_quality-section .react-tab-gird .nav-tabs  {
+      display: block;
+      flex-wrap: wrap;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .high_quality-section .react-tab-gird .nav-tabs li a {
+
+      align-items: center;
+      margin: 0 12px;
+      font-size: 18px;
+      line-height: 1;
+      font-weight: 600;
+
+
+
+    }
   }
 
-  }
+
+  
 .high_quality-section .react-tab-gird .nav-tabs li a {
   display: flex;
   background: #fff;
   align-items: center;
   color: #0f1216;
-  padding: 16px 32px 15px 25px;
+  padding: 16px 7px 15px 25px;
   margin: 0 12px;
   font-size: 18px;
   line-height: 1;
@@ -11860,7 +11875,6 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .high_quality-section .react-tab-gird .nav-tabs li a em.icon {
   margin-right: 14px;
 }
-.high_quality-section .react-tab-gird .nav-tabs li a.active,
 .high_quality-section .react-tab-gird .nav-tabs li a:hover {
   opacity: 0.9;
   color: #0f1216;
