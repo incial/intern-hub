@@ -1,7 +1,16 @@
-const tracks = {
-  rsh: "RSHR",
-  pdt: "PRDV",
-  ptg: "PROT",
+const tracksMap = {
+  rsh: {
+    name: "Research",
+    code: "RSHR",
+  },
+  pdt: {
+    name: "Process Development/Consultancy",
+    code: "PRDV",
+  },
+  ptg: {
+    name: "Prototyping",
+    code: "PROT",
+  },
 };
 
 const cardColors = [
@@ -31,25 +40,41 @@ const cardColors = [
   },
 ];
 
+// HTML elements
+const trackNameElement = document.getElementById("fb-track-name");
+const projectCountElement = document.getElementById("fb-project-count");
+const mentorCountElement = document.getElementById("fb-mentor-count");
+const industryCountElement = document.getElementById("fb-industry-count");
 const projectContainer = document.getElementById("fb-project-container");
 
 // get query parameters
 var urlParams = new URLSearchParams(window.location.search);
 
-// get track
-const track = tracks[urlParams.get("t")];
+// get track code and name
+const trackCode = tracksMap[urlParams.get("t")].code;
+const trackName = tracksMap[urlParams.get("t")].name;
 
-if (urlParams.get("t") == null || track == undefined) {
+// check if track code is valid or query parameter is present ow redirect to home page
+if (urlParams.get("t") == null || trackCode == undefined) {
   window.location.href = "https://internhubajce.in";
 }
 
+// set track name
+trackNameElement.innerText = trackName;
+
+// get track details from firebase
 firebase
   .database()
-  .ref("intern-hub/tracks/" + track)
+  .ref("intern-hub/tracks/" + trackCode)
   .once("value")
   .then((snapshot) => {
     const data = snapshot.val();
 
+    // set project count
+    projectCountElement.innerText = data.project_count;
+    mentorCountElement.innerText = data.mentor_count;
+    industryCountElement.innerText = data.industry_count;
+    
     let buckets = "";
     let colorIndex = 0;
     for (const [key, bucket] of Object.entries(data.buckets)) {
