@@ -1,33 +1,50 @@
-document.addEventListener('DOMContentLoaded', function () {
-  var modeSwitch = document.querySelector('.mode-switch');
+const tracks = {
+  rsh: "RSHR",
+  pdt: "PRDV",
+  ptg: "PROT",
+};
 
-  modeSwitch.addEventListener('click', function () {                     document.documentElement.classList.toggle('dark');
-    modeSwitch.classList.toggle('active');
+const projectContainer = document.getElementById("fb-project-container");
+
+// get query parameters
+var urlParams = new URLSearchParams(window.location.search);
+
+// get track
+const track = tracks[urlParams.get("t")];
+
+if (urlParams.get("t") == null || track == undefined) {
+  window.location.href = "https://internhubajce.in";
+}
+
+
+firebase
+  .database()
+  .ref("intern-hub/tracks/" + track)
+  .once("value")
+  .then((snapshot) => {
+    const data = snapshot.val();
+
+    let buckets = "";
+    for (const [key, bucket] of Object.entries(data.buckets)) {
+      buckets += `<div class="project-box-wrapper" id="bucket_${key}">
+      <div class="project-box" style="background-color: #fee4cb">
+        <div class="project-box-header"></div>
+        <div class="project-box-content-header">
+          <p class="box-content-header">${bucket.bucket_name}</p>
+          <div class="creds">
+            <p class="box-content-subheader">${bucket.faculty_name}</p>
+            <p class="box-content-subheader">${bucket.dept_name}</p>
+          </div>
+          <p class="box-content-subheader desc">${bucket.bucket_desc}</p>
+        </div>
+        <div class="project-box-footer">
+          <a href="${bucket.form_link}" target="_blank" class="apply-button-link">
+            <div class="days-left" style="color: #ff942e">Apply</div>
+          </a>
+        </div>
+      </div>
+    </div>`;
+    }
+    // create html from bucket
+    document.getElementById("fb-project-container").innerHTML = buckets;
   });
-  
-  var listView = document.querySelector('.list-view');
-  var gridView = document.querySelector('.grid-view');
-  var projectsList = document.querySelector('.project-boxes');
-  
-  listView.addEventListener('click', function () {
-    gridView.classList.remove('active');
-    listView.classList.add('active');
-    projectsList.classList.remove('jsGridView');
-    projectsList.classList.add('jsListView');
-  });
-  
-  gridView.addEventListener('click', function () {
-    gridView.classList.add('active');
-    listView.classList.remove('active');
-    projectsList.classList.remove('jsListView');
-    projectsList.classList.add('jsGridView');
-  });
-  
-  document.querySelector('.messages-btn').addEventListener('click', function () {
-    document.querySelector('.messages-section').classList.add('show');
-  });
-  
-  document.querySelector('.messages-close').addEventListener('click', function() {
-    document.querySelector('.messages-section').classList.remove('show');
-  });
-});
