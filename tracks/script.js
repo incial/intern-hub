@@ -7,27 +7,27 @@ const tracks = {
 const cardColors = [
   {
     primary: "#fee4cb",
-    secondary: "#fff4ea",
+    secondary: "#ff942e",
   },
   {
     primary: "#e9e7fd",
-    secondary: "#f6f5fe",
+    secondary: "#4f3ff0",
   },
   {
     primary: "#dbf6fd",
-    secondary: "#f6f5fe",
+    secondary: "#096c86",
   },
   {
     primary: "#ffd3e2",
-    secondary: "#f1fbfe",
+    secondary: "#df3670",
   },
   {
     primary: "#c8f7dc",
-    secondary: "#e9fcf1",
+    secondary: "#34c471",
   },
   {
     primary: "#d5deff",
-    secondary: "#eef2ff",
+    secondary: "#4067f9",
   },
 ];
 
@@ -51,9 +51,10 @@ firebase
     const data = snapshot.val();
 
     let buckets = "";
+    let colorIndex = 0;
     for (const [key, bucket] of Object.entries(data.buckets)) {
       buckets += `<div class="project-box-wrapper" id="bucket_${key}">
-      <div class="project-box" style="background-color: #fee4cb">
+      <div class="project-box" style="background-color: ${cardColors[colorIndex].primary}">
         <div class="project-box-header"></div>
         <div class="project-box-content-header">
           <p class="box-content-header">${bucket.bucket_name}</p>
@@ -65,11 +66,12 @@ firebase
         </div>
         <div class="project-box-footer">
           <a href="${bucket.form_link}" target="_blank" class="apply-button-link">
-            <div class="days-left" style="color: #ff942e">Apply</div>
+          <div class="days-left" style="color: ${cardColors[colorIndex].secondary}">Apply</div>
           </a>
         </div>
       </div>
     </div>`;
+      colorIndex = (colorIndex + 1) % cardColors.length;
     }
     projectContainer.innerHTML = buckets;
   });
