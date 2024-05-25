@@ -74,7 +74,7 @@ firebase
     projectCountElement.innerText = data.project_count;
     mentorCountElement.innerText = data.mentor_count;
     industryCountElement.innerText = data.industry_count;
-    
+
     let buckets = "";
     let colorIndex = 0;
     for (const [key, bucket] of Object.entries(data.buckets)) {
