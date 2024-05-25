@@ -4,6 +4,33 @@ const tracks = {
   ptg: "PROT",
 };
 
+const cardColors = [
+  {
+    primary: "#fee4cb",
+    secondary: "#fff4ea",
+  },
+  {
+    primary: "#e9e7fd",
+    secondary: "#f6f5fe",
+  },
+  {
+    primary: "#dbf6fd",
+    secondary: "#f6f5fe",
+  },
+  {
+    primary: "#ffd3e2",
+    secondary: "#f1fbfe",
+  },
+  {
+    primary: "#c8f7dc",
+    secondary: "#e9fcf1",
+  },
+  {
+    primary: "#d5deff",
+    secondary: "#eef2ff",
+  },
+];
+
 const projectContainer = document.getElementById("fb-project-container");
 
 // get query parameters
@@ -15,7 +42,6 @@ const track = tracks[urlParams.get("t")];
 if (urlParams.get("t") == null || track == undefined) {
   window.location.href = "https://internhubajce.in";
 }
-
 
 firebase
   .database()
@@ -45,6 +71,5 @@ firebase
       </div>
     </div>`;
     }
-    // create html from bucket
-    document.getElementById("fb-project-container").innerHTML = buckets;
+    projectContainer.innerHTML = buckets;
   });
