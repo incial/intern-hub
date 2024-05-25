@@ -4268,6 +4268,7 @@ ul {
 @media (max-width: 1400px) {
   .qna-section-seven .qna-picture {
     margin-right: 40px;
+    
   }
 }
 @media (max-width: 1200px) {
@@ -4278,6 +4279,25 @@ ul {
   .qna-section-seven .qna-picture img {
     width: 100%;
   }
+}
+@media (max-width: 1400px) {
+  .qna-section-seven .wa-picture {
+    margin-right: 40px;
+    
+  }
+}
+@media (max-width: 1200px) {
+  .qna-section-seven .wa-picture {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .qna-section-seven .wa-picture img {
+    width: 100%;
+  }
+}
+.wa-picture img {
+  margin-top: 30px;
+  border-radius: 15px;
 }
 .courses-section-seven .filters {
   margin-bottom: 70px;
@@ -6428,7 +6448,7 @@ ul {
 }
 .hero3__area {
   overflow: hidden;
-  background: url(assets/images/banner2/bg2.png) center top no-repeat;
+  /* background: url(assets/images/banner2/bg2.png) center top no-repeat; */
   padding-bottom: 180px;
   padding-top: 160px;
   background-size: cover;
@@ -6952,6 +6972,9 @@ ul {
 .about2__area .about__image {
   position: relative;
 }
+.about__image img{
+  border-radius: 15px;
+}
 .about2__area .react__shape__1 {
   position: absolute;
   left: -8%;
@@ -7326,6 +7349,11 @@ ul {
   font-weight: 600;
   margin: 0;
 }
+@media screen and (min-width: 768px) {
+  .accordion__wrapper1 {
+    padding-top: 100px;
+  }
+}
 .accordion__area .accordion__wrapper-1 p {
   font-size: 16px;
   color: #5b5f64;
@@ -7354,6 +7382,7 @@ ul {
   margin-bottom: 10px;
   box-shadow: 0 20px 40px rgba(15, 18, 22, 0.1);
   border-radius: 6px;
+  
 }
 .accordion__area .accordion-button {
   padding: 20px 37px;
@@ -8120,7 +8149,7 @@ ul {
   vertical-align: middle;
 }
 .campus_sec {
-  background: url(assets/images/campus/cam.png) center top no-repeat;
+  /* background: url(assets/images/campus/cam.png) center top no-repeat; */
   background-size: cover;
 }
 .campus_sec .react__title__section img {
@@ -9223,7 +9252,7 @@ body.courses-grid-page
   content: "";
   font-size: 120px;
   position: absolute;
-  background: url(assets/images/blog-grid/qu.png) right bottom no-repeat;
+  /* background: url(assets/images/blog-grid/qu.png) right bottom no-repeat; */
   bottom: 0;
   right: 47px;
   width: 107px;
@@ -9237,7 +9266,7 @@ body.courses-grid-page
   content: "";
   font-size: 120px;
   position: absolute;
-  background: url(assets/images/blog-grid/link.png) right bottom no-repeat;
+  /* background: url(assets/images/blog-grid/link.png) right bottom no-repeat; */
   top: 50%;
   left: 40px;
   width: 30px;
@@ -9459,7 +9488,7 @@ body.courses-grid-page
   content: "";
   font-size: 120px;
   position: absolute;
-  background: url(assets/images/blog-grid/qu.png) right bottom no-repeat;
+  /* background: url(assets/images/blog-grid/qu.png) right bottom no-repeat; */
   bottom: 0;
   right: 47px;
   width: 107px;
@@ -9473,7 +9502,7 @@ body.courses-grid-page
   content: "";
   font-size: 120px;
   position: absolute;
-  background: url(assets/images/blog-grid/link.png) right bottom no-repeat;
+  /* background: url(assets/images/blog-grid/link.png) right bottom no-repeat; */
   bottom: -6px;
   right: 47px;
   width: 180px;
@@ -11593,7 +11622,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   color: #3270fc;
 }
 .student_satisfaction-section {
-  background: url(assets/images/testimonial/bg.jpg) center top no-repeat;
+  /* background: url(assets/images/testimonial/bg.jpg) center top no-repeat; */
   background-size: cover;
   padding-top: 10px;
  
