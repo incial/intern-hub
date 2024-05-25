@@ -51,8 +51,15 @@ const projectContainer = document.getElementById("fb-project-container");
 var urlParams = new URLSearchParams(window.location.search);
 
 // get track code and name
-const trackCode = tracksMap[urlParams.get("t")].code;
-const trackName = tracksMap[urlParams.get("t")].name;
+let trackCode = "";
+let trackName = "";
+
+try {
+  trackCode = tracksMap[urlParams.get("t")].code;
+  trackName = tracksMap[urlParams.get("t")].name;
+} catch (e) {
+  window.location.href = "https://internhubajce.in";
+}
 
 // check if track code is valid or query parameter is present ow redirect to home page
 if (urlParams.get("t") == null || trackCode == undefined) {
