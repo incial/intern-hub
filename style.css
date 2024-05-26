@@ -211,7 +211,7 @@ ul {
 .react__title__section {
   padding-bottom: 30px;
 }
-.natureship{
+.natureship {
   font-size: 30px;
   font-weight: 700;
   color: #6a8b04;
@@ -631,8 +631,6 @@ ul {
   height: 0;
   padding: 0 10px;
   transition: 500ms;
-  
-
 }
 .react-header.react-header-four .search-form .search-input.show {
   padding: 5px 10px;
@@ -1336,21 +1334,13 @@ ul {
     font-size: 16px;
     line-height: 0 !important;
   }
-  .natureship{
+  .natureship {
     font-size: 22px;
     font-weight: 700;
     color: #6a8b04;
     margin: 0;
     padding-bottom: 50px;
   }
-  .high_quality-section .react-tab-gird .nav-tabs {
-    display: block;
-    width: 100%;
-  }
- 
-
-
-
 }
 .home-five.banner {
   position: relative;
@@ -1955,7 +1945,7 @@ ul {
 .home-five.trending-section-five .btn-area .all-course-btn:hover {
   background: #4d82ff;
 }
-.outcomesscroll-head{
+.outcomesscroll-head {
   color: #233913 !important;
   font-size: 23px;
   font-weight: 800;
@@ -4091,6 +4081,7 @@ ul {
     max-width: 320px;
   }
 }
+
 .section-title-area-seven .section-pretitle {
   color: #252525;
   font-size: 20px;
@@ -4116,6 +4107,7 @@ ul {
   line-height: 60px;
   transform: translateY(-10px);
 }
+
 @media (max-width: 1200px) {
   .section-title-area-seven .section-pretitle {
     font-size: 20px;
@@ -4278,6 +4270,24 @@ ul {
   .qna-section-seven .qna-picture img {
     width: 100%;
   }
+}
+@media (max-width: 1400px) {
+  .qna-section-seven .wa-picture {
+    margin-right: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .qna-section-seven .wa-picture {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .qna-section-seven .wa-picture img {
+    width: 100%;
+  }
+}
+.wa-picture img {
+  margin-top: 30px;
+  border-radius: 15px;
 }
 .courses-section-seven .filters {
   margin-bottom: 70px;
@@ -4702,8 +4712,7 @@ ul {
   background: white;
   color: #97be23;
   border: #97be23;
-  border-style: solid;
-  border-width: 3px;
+  border-style: none;
 }
 .hero4__area .hero4__image {
   padding-top: 90px;
@@ -6428,7 +6437,7 @@ ul {
 }
 .hero3__area {
   overflow: hidden;
-  background: url(assets/images/banner2/bg2.png) center top no-repeat;
+  /* background: url(assets/images/banner2/bg2.png) center top no-repeat; */
   padding-bottom: 180px;
   padding-top: 160px;
   background-size: cover;
@@ -6952,6 +6961,9 @@ ul {
 .about2__area .about__image {
   position: relative;
 }
+.about__image img {
+  border-radius: 15px;
+}
 .about2__area .react__shape__1 {
   position: absolute;
   left: -8%;
@@ -7325,6 +7337,11 @@ ul {
   color: #638106;
   font-weight: 600;
   margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .accordion__wrapper1 {
+    padding-top: 100px;
+  }
 }
 .accordion__area .accordion__wrapper-1 p {
   font-size: 16px;
@@ -8120,7 +8137,7 @@ ul {
   vertical-align: middle;
 }
 .campus_sec {
-  background: url(assets/images/campus/cam.png) center top no-repeat;
+  /* background: url(assets/images/campus/cam.png) center top no-repeat; */
   background-size: cover;
 }
 .campus_sec .react__title__section img {
@@ -9223,7 +9240,7 @@ body.courses-grid-page
   content: "";
   font-size: 120px;
   position: absolute;
-  background: url(assets/images/blog-grid/qu.png) right bottom no-repeat;
+  /* background: url(assets/images/blog-grid/qu.png) right bottom no-repeat; */
   bottom: 0;
   right: 47px;
   width: 107px;
@@ -9237,7 +9254,7 @@ body.courses-grid-page
   content: "";
   font-size: 120px;
   position: absolute;
-  background: url(assets/images/blog-grid/link.png) right bottom no-repeat;
+  /* background: url(assets/images/blog-grid/link.png) right bottom no-repeat; */
   top: 50%;
   left: 40px;
   width: 30px;
@@ -9459,7 +9476,7 @@ body.courses-grid-page
   content: "";
   font-size: 120px;
   position: absolute;
-  background: url(assets/images/blog-grid/qu.png) right bottom no-repeat;
+  /* background: url(assets/images/blog-grid/qu.png) right bottom no-repeat; */
   bottom: 0;
   right: 47px;
   width: 107px;
@@ -9473,7 +9490,7 @@ body.courses-grid-page
   content: "";
   font-size: 120px;
   position: absolute;
-  background: url(assets/images/blog-grid/link.png) right bottom no-repeat;
+  /* background: url(assets/images/blog-grid/link.png) right bottom no-repeat; */
   bottom: -6px;
   right: 47px;
   width: 180px;
@@ -10116,6 +10133,70 @@ body.courses-grid-page
   position: relative;
   top: 6px;
 }
+.industry-connect-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.submit-problem-statement-btn {
+  display: inline-block;
+  background-color: #9bbc24;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  outline: none;
+  border: none;
+}
+
+.submit-problem-statement-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.submit-problem-statement-btn:hover {
+  background-color: #84ae1e;
+}
+/*.industry-connect-section .section-title-area-seven {
+  
+}*/
+
+.industry-connect-section .section-title {
+  /* Adjust styles specific to this section */
+  color: #252525;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  transform: translateY(-10px);
+}
+.qna-picture img {
+  border-radius: 10px; /* Adjust the border-radius value as needed */
+  max-width: 90%;
+}
+@media (max-width: 1200px) {
+  .industry-connect-section .section-title-area-seven .section-pretitle {
+    font-size: 20px;
+  }
+  .industry-connect-section .section-title-area-seven .section-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .industry-connect-section .section-title-area-seven {
+    margin-bottom: 30px !important;
+  }
+  .industry-connect-section .section-title-area-seven .section-pretitle {
+    font-size: 16px;
+    line-height: 0 !important;
+  }
+  .industry-connect-section .section-title-area-seven .section-title {
+    font-size: 30px;
+    line-height: 40px;
+    transform: translateY(-20px);
+  }
+}
+
 .react-contact-page h2.contact-title {
   font-size: 34px;
   color: #0f1216;
@@ -10253,6 +10334,10 @@ body.courses-grid-page
 }
 .react-contact-page .address-sec li .icon {
   margin-right: 25px;
+}
+.react-contact-page .address-sec li .icon img {
+  width: 30px; /* Set your desired width */
+  height: 30px; /* Set your desired height */
 }
 .react-contact-page .address-sec li .text {
   font-size: 16px;
@@ -11593,10 +11678,10 @@ body.event-page .react-upcoming__event .event__card .event_time {
   color: #3270fc;
 }
 .student_satisfaction-section {
-  background: url(assets/images/testimonial/bg.jpg) center top no-repeat;
+  /* background: url(assets/images/testimonial/bg.jpg) center top no-repeat; */
   background-size: cover;
   padding-top: 10px;
- 
+  padding-bottom: 0px;
 }
 .student_satisfaction-section .event__card .event__card--content {
   background: #fff;
@@ -11734,7 +11819,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
   border-color: #97be23;
 }
 .student_satisfaction-section .count__area2 {
-  padding-top: 90px;
+  padding-top: 5px;
+  padding-bottom: 0px;
 }
 .student_satisfaction-section .count__area2 .container {
   border-top: 1px solid rgba(15, 18, 22, 0.08);
@@ -11832,16 +11918,25 @@ body.event-page .react-upcoming__event .event__card .event_time {
 @media (max-width: 576px) {
   .high_quality-section .react-tab-gird .nav-tabs {
     display: block;
-    width: 100%;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: 600;
   }
+  .high_quality-section .react-tab-gird .nav-tabs li a {
+    align-items: center;
+    margin: 0 12px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 600;
+  }
+}
 
-  }
 .high_quality-section .react-tab-gird .nav-tabs li a {
   display: flex;
   background: #fff;
   align-items: center;
   color: #0f1216;
-  padding: 16px 32px 15px 25px;
+  padding: 16px 7px 15px 25px;
   margin: 0 12px;
   font-size: 18px;
   line-height: 1;
@@ -11860,7 +11955,6 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .high_quality-section .react-tab-gird .nav-tabs li a em.icon {
   margin-right: 14px;
 }
-.high_quality-section .react-tab-gird .nav-tabs li a.active,
 .high_quality-section .react-tab-gird .nav-tabs li a:hover {
   opacity: 0.9;
   color: #0f1216;
@@ -11925,7 +12019,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   color: #0f1216;
 }
 .react-footer .footer-top {
-  padding: 100px 0 93px;
+  padding: 0px 0 5px;
 }
 .react-footer .footer-top .footer-menu li {
   margin-bottom: 2px;
@@ -12026,13 +12120,28 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 .react-footer .footer-top .footer-widget-1 {
   margin-top: -10px;
+  padding: 5px 0 0px;
 }
+/* Adjust the margin-top for the first widget */
+.react-footer .footer-top .footer-widget-1 {
+  margin-top: -10px;
+  padding-top: 5px;
+}
+.react-footer .footer-top .footer-widget-2 {
+  margin-left: auto;
+}
+/* Adjust the margin-left for the third widget */
 .react-footer .footer-top .footer-widget-3 {
   margin-left: 50px;
 }
+
+/* Adjust the padding-left for the second widget */
 .react-footer .footer-top .footer-widget.footer-widget-2 {
-  padding-left: 100px;
+  padding-left: 850px;
+  padding-top: 150px;
 }
+
+/* Style for footer titles */
 .react-footer .footer-top .footer-widget .footer-title {
   margin-bottom: 30px;
   position: relative;
@@ -12041,9 +12150,13 @@ body.event-page .react-upcoming__event .event__card .event_time {
   font-weight: 700;
   line-height: 24px;
 }
+
+/* Style for footer addresses */
 .react-footer .footer-top .footer-widget .footer-address {
   margin-bottom: 30px;
 }
+
+/* Style for footer address list items */
 .react-footer .footer-top .footer-widget .footer-address li {
   width: 100%;
   font-size: 15px;
@@ -12052,15 +12165,20 @@ body.event-page .react-upcoming__event .event__card .event_time {
   color: #b7b7b9;
   font-weight: 600;
 }
+
+/* Style for footer address links */
 .react-footer .footer-top .footer-widget .footer-address li a {
   color: #b7b7b9;
   margin-left: 10px;
   line-height: 24px;
   font-size: 18px;
 }
+
+/* Hover style for footer address links */
 .react-footer .footer-top .footer-widget .footer-address li a:hover {
   color: #3270fc;
 }
+
 .react-footer .footer-top .footer-widget .footer-address li svg {
   position: relative;
   top: 0;
