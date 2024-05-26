@@ -7340,7 +7340,7 @@ ul {
 }
 @media screen and (min-width: 768px) {
   .accordion__wrapper1 {
-    padding-top: 130px;
+    padding-top: 100px;
   }
 }
 .accordion__area .accordion__wrapper-1 p {
@@ -11941,6 +11941,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   font-size: 18px;
   line-height: 1;
   font-weight: 600;
+  cursor: pointer;
   position: relative;
   vertical-align: middle;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
