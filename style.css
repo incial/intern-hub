@@ -10138,6 +10138,11 @@ body.courses-grid-page
   padding-bottom: 120px;
 }
 
+.qna-picture img.industry-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
 .submit-problem-statement-btn {
   display: inline-block;
   background-color: #9bbc24;
@@ -10158,42 +10163,47 @@ body.courses-grid-page
 .submit-problem-statement-btn:hover {
   background-color: #84ae1e;
 }
-/*.industry-connect-section .section-title-area-seven {
-  
-}*/
 
 .industry-connect-section .section-title {
-  /* Adjust styles specific to this section */
   color: #252525;
   font-size: 50px;
   font-weight: 700;
   line-height: 60px;
-  transform: translateY(-10px);
 }
 .qna-picture img {
   border-radius: 10px; /* Adjust the border-radius value as needed */
-  max-width: 90%;
+  max-width: 90%; 
 }
+
 @media (max-width: 1200px) {
-  .industry-connect-section .section-title-area-seven .section-pretitle {
-    font-size: 20px;
-  }
-  .industry-connect-section .section-title-area-seven .section-title {
+  .industry-connect-section .section-title {
     font-size: 40px;
   }
 }
+
 @media (max-width: 576px) {
-  .industry-connect-section .section-title-area-seven {
-    margin-bottom: 30px !important;
+  .industry-connect-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
-  .industry-connect-section .section-title-area-seven .section-pretitle {
-    font-size: 16px;
-    line-height: 0 !important;
-  }
-  .industry-connect-section .section-title-area-seven .section-title {
+
+  .industry-connect-section .section-title {
     font-size: 30px;
     line-height: 40px;
-    transform: translateY(-20px);
+  }
+
+  .industry-connect-section .qna-picture,
+  .industry-connect-section .contents {
+    margin-bottom: 20px;
+  }
+
+  .industry-connect-section .qna-picture img.industry-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .industry-connect-section .col-md-12 {
+    text-align: center;
   }
 }
 
@@ -10321,22 +10331,36 @@ body.courses-grid-page
 }
 .react-contact-page .address-sec {
   padding: 35px;
-  background: linear-gradient(
+  background-color: #fff;
+  border: none; /* Remove border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+  /* background: linear-gradient(
     138.95deg,
     #f2f4f9 0,
     rgba(242, 244, 249, 0) 63.81%
-  );
+  ); */
   border-radius: 10px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
+
+.react-contact-page .address-sec:hover {
+  background-color: #d4e08c; /* Change to a light grey on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhance drop shadow on hover */
+}
+
 .react-contact-page .address-sec li {
   display: flex;
   padding-bottom: 35px;
+  border: none; /* Remove border */
+  /*transition: box-shadow 0.3s ease;*/
 }
+
+
 .react-contact-page .address-sec li .icon {
   margin-right: 25px;
 }
 .react-contact-page .address-sec li .icon img {
-  width: 30px; /* Set your desired width */
+  width: 30px;  /* Set your desired width */
   height: 30px; /* Set your desired height */
 }
 .react-contact-page .address-sec li .text {
