@@ -560,6 +560,7 @@ a {
 }
 .project-box-content-header p {
   margin: 0;
+  margin-right: 10px;
 }
 .project-box-wrapper {
   padding: 8px;
@@ -604,7 +605,7 @@ a {
 
 .creds {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 10px 0;
 }
 
@@ -615,7 +616,7 @@ a {
 }
 
 .desc {
-  padding: 5px 40px;
+  padding: 5px 20px;
 }
 
 .box-progress {
@@ -723,6 +724,9 @@ a {
     width: 100%;
   }
 
+  .desc {
+    padding: 5px 20px;
+  }
   .status-number,
   .status-type {
     font-size: 14px;
@@ -796,9 +800,15 @@ a {
     padding: 16px 12px 24px 12px;
   }
 
-  .status-number,
+  .item-status {
+    margin-right: 10px;
+  }
+  .status-number {
+    font-size: 20px;
+  }
+
   .status-type {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .view-btn {
@@ -861,6 +871,10 @@ a {
     line-height: 24px;
   }
 
+  .desc {
+    padding: 5px 10px;
+  }
+
   .project-boxes.jsListView .project-box-header > span {
     font-size: 10px;
   }
@@ -887,8 +901,12 @@ a {
     right: 2px;
     top: 10px;
   }
+
+  .app-footer {
+    margin-bottom: 30px;
+  }
 }
 
-a{
+a {
   text-decoration: none;
 }
