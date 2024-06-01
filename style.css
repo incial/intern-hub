@@ -111,6 +111,10 @@ img {
 }
 p {
   margin: 0 0 26px;
+ 
+    text-align: justify;
+    /* font-size: 16px; */
+  
 }
 h1,
 h2,
@@ -11724,6 +11728,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   line-height: 30px;
   margin: 6px 0 0;
   font-size: 18px;
+  text-align: justify;
 }
 .student_satisfaction-section .poly {
   position: absolute;
