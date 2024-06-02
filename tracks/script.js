@@ -54,6 +54,12 @@ var urlParams = new URLSearchParams(window.location.search);
 let trackCode = "";
 let trackName = "";
 
+// easter egg
+if(urlParams.get("t") == "but-why") {
+  alert("mugging up textbook and spitting them on exams doesn't make you a good engineer.\nGet some work!");
+  window.location.href = "https://internhubajce.in";
+}
+
 try {
   trackCode = tracksMap[urlParams.get("t")].code;
   trackName = tracksMap[urlParams.get("t")].name;
@@ -76,6 +82,11 @@ firebase
   .once("value")
   .then((snapshot) => {
     const data = snapshot.val();
+
+    if (data == null) {
+      alert("Details not found for this track. This could be a mistake. Please contact the admin. You will be now redirected to home page.");
+      window.location.href = "https://internhubajce.in";
+    }
 
     // set project count
     projectCountElement.innerText = data.project_count;
