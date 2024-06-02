@@ -111,6 +111,10 @@ img {
 }
 p {
   margin: 0 0 26px;
+ 
+    text-align: justify;
+    /* font-size: 16px; */
+  
 }
 h1,
 h2,
@@ -1343,10 +1347,10 @@ ul {
     margin: 0;
     padding-bottom: 50px;
   }
-  .high_quality-section .react-tab-gird .nav-tabs {
+  /* .high_quality-section .react-tab-gird .nav-tabs {
   
 
-  }
+  } */
  
 
 
@@ -2342,6 +2346,13 @@ ul {
   .home-five button i {
     font-size: 14px !important;
   }
+  .footer-logo {
+    width: 200px !important;
+  }
+}
+
+.footer-logo {
+  width: 200px;
 }
 .home-five.footer-top-cta {
   background: #3270fc !important;
@@ -11724,6 +11735,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   line-height: 30px;
   margin: 6px 0 0;
   font-size: 18px;
+  text-align: justify;
 }
 .student_satisfaction-section .poly {
   position: absolute;
@@ -12197,7 +12209,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 
 /* Hover style for footer address links */
 .react-footer .footer-top .footer-widget .footer-address li a:hover {
-  color: #3270fc;
+  color: #84ae1e;
 }
 
 .react-footer .footer-top .footer-widget .footer-address li svg {
@@ -12229,14 +12241,14 @@ body.event-page .react-upcoming__event .event__card .event_time {
   .footer-address
   li
   a:hover {
-  color: #3270fc;
+  color: #84ae1e;
 }
 .react-footer.react-footer-two .footer-top .footer-menu li a::after {
-  background: #3270fc;
+  background: #84ae1e;
 }
 .react-footer.react-footer-two .social-links li a:hover {
-  background: #3270fc;
-  border-color: #3270fc;
+  background: #84ae1e;
+  border-color: #84ae1e;
 }
 .react-footer .copyright {
   text-align: center;
