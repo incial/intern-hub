@@ -11947,7 +11947,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
     .high_quality-section .react-tab-gird .nav-tabs  {
       display: block;
       flex-wrap: wrap;
-      font-size: 18px;
+      font-size: 5px;
       font-weight: 600;
     }
     .high_quality-section .react-tab-gird .nav-tabs li a {
@@ -11960,6 +11960,36 @@ body.event-page .react-upcoming__event .event__card .event_time {
 
 
 
+    }
+    .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"].owl-next {
+      left: auto;
+      right: -7px;
+    }
+    .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"].owl-prev {
+      left: -7px;
+      right: auto;
+    }
+    .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"] {
+      position: absolute;
+      display: inline-block;
+      font-size: 0;
+      width: 40px;
+      height: 40px;
+      line-height: 4px;
+      color: #00306e;
+      background: #fff;
+      border-radius: 100%;
+      transition: all 0.5s ease 0s;
+      box-shadow: -6px 20px 30px rgba(15, 18, 22, 0.06);
+    }
+    .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"]:before {
+      content: "\35";
+      font-family: ElegantIcons;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 24px;
+      font-weight: 700;
     }
   }
 
