@@ -466,7 +466,7 @@
   }
   .campus_sec .about__content {
     margin-right: 0;
-    margin-bottom: 50px;
+    
   }
   .react-blog__area.blog__area.pb---120,
   .instructors___page.pb---140,
@@ -872,96 +872,92 @@
 }
 
 @media screen and (max-width: 575px) {
-  .react-blog-page .single-blog .blog-content {
-    padding: 30px 25px 30px;
-  }
-  .react_popular_topics .row .col-md-3 {
-    flex: 0 0 100%;
-    width: 100%;
-  }
-  .campus_sec .about__content ul li {
-    display: block;
-  }
-  .popular__course__area .course__item .react-course-title br {
-    display: none;
-  }
-  .about__area.about__area_one ul {
-    display: block;
-  }
-  .about__area.about__area_one ul li.last-li {
-    margin-left: 0;
-    margin-top: 35px;
-  }
-  .campus_sec .about__content ul li .icon {
-    margin-right: 0;
-  }
-  .campus_sec .about__content ul li .icon img {
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-  .campus_sec .about__content ul li a {
-    display: block;
-    margin-top: 20px;
-  }
-  .react-blog-page .single-blog .blog-content .top-part {
-    display: block;
-  }
-  .react-blog-page .single-blog .blog-content .top-part li {
-    padding-right: 0;
-    padding-bottom: 10px;
-  }
-  .react-blog-page .single-blog .blog-content .button__sec .share-course span {
-    left: 20px;
-  }
-  .react-courses__single-page .course-single-tab .nav.nav-tabs {
-    justify-content: center;
-  }
-  .react-courses__single-page .course-single-tab .nav.nav-tabs li a {
-    padding: 10px 15px;
-    margin: 10px 8px;
-  }
-
-  .pt---100 {
-    padding-top: 60px;
-  }
-  .pb---100 {
-    padding-bottom: 60px;
-  }
-  .pb---110 {
-    padding-bottom: 80px;
-  }
-  .pt---120 {
-    padding-top: 70px;
-  }
-  .blog-post-single-page
-    .blog-single-inner
-    .blog-content
-    .blog-tags
-    ul.mata-tags
-    li
-    a {
-    padding: 3px 13px;
-  }
-  .react-upcoming__event {
-    padding-top: 60px;
-    padding-bottom: 76px;
-  }
-  .react-footer .footer-top {
-    padding: 80px 0 53px;
-  }
-  .pb---120 {
-    padding-bottom: 60px;
-  }
-  .react_popular_topics.pt---100.pb---70 {
-    padding-bottom: 0;
-  }
-  .blog-post-single-page .blog-single-inner .blog-content .post-author {
-    display: block;
-  }
-  .blog-post-single-page .blog-single-inner .blog-content .post-author .avatar {
-    margin-right: 0;
-    margin-bottom: 25px;
-  }
+	.react-blog-page .single-blog .blog-content {
+	    padding: 30px 25px 30px;
+	}
+	.react_popular_topics .row .col-md-3 {
+	    flex: 0 0 100%;
+	    width: 100%;
+	}
+	.campus_sec .about__content ul li {
+	    display: block;
+	}
+	.popular__course__area .course__item .react-course-title br{
+		display: none;
+	}
+	.about__area.about__area_one ul {
+	  display: block;
+	}
+	.about__area.about__area_one ul li.last-li{
+		margin-left: 0;
+		margin-top: 35px;
+	}
+	.campus_sec .about__content ul li .icon {
+	    margin-right: 0;
+	}
+	.campus_sec .about__content ul li .icon img {
+	    margin-top: 0;
+	    margin-bottom: 15px;
+	}
+	.campus_sec .about__content ul li a {
+	    display: block;
+	    margin-top: 20px;
+	}
+	.react-blog-page .single-blog .blog-content .top-part {
+	    display: block;
+	}
+	.react-blog-page .single-blog .blog-content .top-part li {
+	    padding-right: 0;
+	    padding-bottom: 10px;
+	}
+	.react-blog-page .single-blog .blog-content .button__sec .share-course span {
+	    left: 20px;
+	}
+	.react-courses__single-page .course-single-tab .nav.nav-tabs{
+		justify-content: center;
+	}
+	.react-courses__single-page .course-single-tab .nav.nav-tabs li a {
+	    padding: 10px 15px;
+	    margin: 10px 8px;
+	}
+	.student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"]{
+		display: none;
+	}
+	.pt---100 {
+	  padding-top: 60px;
+	}
+	.pb---100{
+	  padding-bottom: 60px;
+	}
+	.pb---110{
+	  padding-bottom: 80px;
+	}
+	.pt---120 {
+	  padding-top: 70px;
+	}
+	.blog-post-single-page .blog-single-inner .blog-content .blog-tags ul.mata-tags li a {
+	  	padding: 3px 13px;
+	}
+	.react-upcoming__event {
+	  	padding-top: 60px;
+	  	padding-bottom: 76px;
+	}
+	.react-footer .footer-top {
+	  padding: 80px 0 53px;
+	}
+	.pb---120 {
+	  padding-bottom: 60px;
+	}
+	.react_popular_topics.pt---100.pb---70{
+		padding-bottom: 0;
+	}
+	.blog-post-single-page .blog-single-inner .blog-content .post-author {
+	 	display: block;
+	}
+	.blog-post-single-page .blog-single-inner .blog-content .post-author .avatar {
+	  	margin-right: 0;
+	  	margin-bottom: 25px;
+	}
 }
 
 @media screen and (max-width: 480px) {
