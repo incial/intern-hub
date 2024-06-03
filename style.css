@@ -1351,9 +1351,34 @@ ul {
   
 
   } */
+
+  .hero4__area .container.hero4__width {
+    width: 100vw;
+    max-width: 800px;
+    margin-top: 280px;
+    display: flex;
+    margin-left: 0px !important;
+    justify-content: center !important;
+  }
  
+  .hero4__area .hero4__content .hero4-btn{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    border-radius: 50px !important;
+    background: #97be23 ;
+    padding: 8px 40px !important;
+    color: white;
+    display: inline-block;
+    box-shadow: 2px 2px 15px #97be23;
+  }
 
+  .hero4__area .hero4__content .hero4-btn:hover {
+    background: #84ae1e;
+    color: #fff9f1;
+    border:2px solid #97be23;
 
+  }
+  
 
 }
 .home-five.banner {
@@ -4657,6 +4682,7 @@ ul {
 }
 @media (max-width: 600px) {
   .hero4__area {
+
     background: url(assets/images/hero/1MB.jpg) center top no-repeat;
     background-size: contain;
   }
@@ -4750,11 +4776,11 @@ ul {
   box-shadow: 2px 2px 15px #97be23;
 }
 .hero4__area .hero4__content .hero4-btn:hover {
-  background: white;
-  color: #97be23;
-  border: #97be23;
-  border-style: solid;
-  border-width: 3px;
+  background: #719419;
+  color: #fff9f1;
+  border:2px solid #97be23;
+  /* border-style: solid;
+  border-width: 3px; */
 }
 .hero4__area .hero4__image {
   padding-top: 90px;
@@ -7450,12 +7476,12 @@ ul {
 .accordion__area .accordion .accordion-header .accordion-button:focus {
   box-shadow: none;
 }
-.accordion__area
+/* .accordion__area
   .accordion
   .accordion-header
   .accordion-button.collapsed::after {
-  /* content: "\32"; */
-}
+   content: "\32"; 
+} */
 .accordion__area .accordion__shape img {
   position: absolute;
 }
