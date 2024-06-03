@@ -157,7 +157,7 @@
 
   <!--================= Wrapper Start Here =================-->
   <div class="react-wrapper">
-    <div class="react-wrapper-inner">
+    <div class="react-wrapper-inner" style="padding-bottom: 0px;">
       <!--================= Banner Section End  Here =================-->
       <div class="hero4__area pt-160 pb-150 md-pt-90">
         <!-- <div class="hero4__shape">
@@ -235,7 +235,7 @@
                                                 </div>
                                                 <div class="answer">
                                                     <p>Intern-hub is a platform for identifying passionate students to work with mentors or industries and execute internships with certificate.</P>
-    </p>
+      </p>
                                                 </div>
                                             </div> -->
                     <div class="qna-dropdown-item">
@@ -946,7 +946,7 @@
       <!-=================  Featured Section End Here ================= -->
 
       <!--=================  connecting industries start ================= -->
-      <div class="industry-connect-section pt---120 pb---120">
+      <div class="industry-connect-section pt---120 pb---120" style="padding-bottom: 0px;">
         <div class="container">
           <div class="row align-items-start">
             <div class="col-xl-6 col-md-12">
@@ -957,7 +957,7 @@
             <div class="col-xl-6 col-md-12 d-flex flex-column justify-content-between">
               <div class="contents">
                 <div class="section-title-area-seven">
-                  <div class="section-title">Connecting Industries</div>
+                  <div class="section-title" style="padding-top: 20px;">Connecting Industries</div>
                   <p>We invite industries to submit their problem statements and collaborate with our talented students.
                     This initiative aims to bridge the gap between academia and industry, providing students with
                     real-world challenges to solve and enabling companies to benefit from fresh ideas and innovative
@@ -972,7 +972,6 @@
           </div>
         </div>
       </div>
-      >
     </div>
     <!--=================  connecting industries  ends ================= -->
        <!--=================  Satisfaction Section Start Here ================= -->
@@ -981,7 +980,7 @@
       <div class="react__title__section-all pb---30">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h6>Student Satisfaction</h6>
+            <!--<h6>Student Satisfaction</h6>-->
             <h2 class="react__tittle">Student Community <br>Feedback</h2>
           </div>
         </div>
@@ -1145,36 +1144,56 @@
  <!--<div class="count__area2 pb---100"> -->
  <!--=================  Satisfaction Section End Here ================= -->
         <!--================= contact section =================-->
-      <section id="ih-cs">
-        <div id="react-contact" class="react-contact-page pt---100">
-          <div class="container">
-            <div class="row pb---96 d-flex justify-content-center">
-              <div class="col-lg-4 pt---10 text-left">
-                <ul class="address-sec">
-                  <li>
-                    <em class="icon"><img src="assets\images\gps_14026081.png" alt="image"></em>
-                    <span class="text"><em>Address</em> Amal Jyothi College of Engineering Kanjirappally, <br> Kottayam
-                      <br>Kerala - 686518</span>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-4 pt---10">
-                <ul class="address-sec">
-                  <li>
-                    <em class="icon"><img src="assets\images\call_5045525.png" alt="image"></em>
-                    <span class="text"><em>Mr. Ajin Omanakuttan</em>
-                      <a href="tel:+918606117823">Mobile: +91 8606117823</a>
-                      <br>
-                      <a href="mailto:ajinomanakuttan@amaljyothi.ac.in">Mail: ajinomanakuttan@amaljyothi.ac.in</a>
-                      <br>
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
+  <section id="ih-cs" style="background-color: #f8f9fa;">
+    <div id="react-contact" class="react-contact-page pt---100">
+      <div class="container">
+        <div class="row pb---96 d-flex justify-content-center">
+          <div class="col-lg-4 pt---10 text-left">
+            <ul class="address-sec">
+              <li>
+                <em class="icon"><img src="assets\images\gps_14026081.png" alt="Address Icon"></em>
+                <span class="text">
+                  <strong>Address:</strong><br>
+                  Amal Jyothi College of Engineering<br>
+                  Kanjirappally, Kottayam<br>
+                  Kerala - 686518
+                </span>
+              </li>
+            </ul>
           </div>
+          <div class="col-lg-4 pt---10">
+            <ul class="address-sec">
+              <li>
+                <em class="icon"><img src="assets\images\call_5045525.png" alt="Phone Icon"></em>
+                <span class="text">
+                  <strong>Contact Person:</strong><br>
+                  Mr. Ajin Omanakuttan<br>
+                  <a href="tel:+918606117823">Mobile: +91 8606117823</a>
+                  <a href="mailto:ajinomanakuttan@amaljyothi.ac.in">Mail: ajinomanakuttan@amaljyothi.ac.in</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <style>
+            .address-sec:hover {
+              background-color: #e9ecef; /* Change background color on hover */
+              transition: background-color 0.3s ease; /* Add a smooth transition effect */
+            }
+          
+            /* Optional: Add styles for the text and icon on hover */
+            .address-sec:hover .text {
+              color: #212529; /* Change text color on hover */
+            }
+            
+            .address-sec:hover .icon img {
+              filter: brightness(50%); /* Decrease image brightness on hover */
+            }
+          </style>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
+
     <!--================= Wrapper End Here =================-->
 
     <!--================= Footer Section Start Here =================-->
