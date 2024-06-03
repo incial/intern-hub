@@ -12231,6 +12231,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .react-footer .footer-top .footer-widget.footer-widget-2 {
   padding-left: 850px;
   padding-top: 150px;
+  /*padding-bottom: 180px;*/
+  padding-right: 150px;
 }
 
 /* Style for footer titles */
