@@ -2221,6 +2221,17 @@ ul {
   .home-five.testimonials-section .testimonials-slider-navigation {
     bottom: 60px !important;
   }
+  .home-seven-btn {
+    margin-top: 25px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: #97be23 !important;
+    border: none;
+    padding: 8px 30px !important;
+    border-radius: 12px !important;
+    transition: background 300ms !important;
+    
+}
 }
 .home-five.blog-section {
   position: relative;
@@ -3805,7 +3816,7 @@ ul {
   background: #97be23;
   border: none;
   padding: 15px 40px;
-  border-radius: 5px;
+  border-radius: 12px;
   transition: background 300ms;
 }
 .home-seven-btn a {
@@ -4644,6 +4655,13 @@ ul {
   justify-content: start;
   align-items: center;
 }
+@media (max-width: 600px) {
+  .hero4__area {
+    background: url(assets/images/hero/1MB.jpg) center top no-repeat;
+    background-size: contain;
+  }
+}
+
 .hero4__area .container.hero4__width {
   width: 100vw;
   margin-left: 25%;
@@ -7436,7 +7454,7 @@ ul {
   .accordion
   .accordion-header
   .accordion-button.collapsed::after {
-  content: "\32";
+  /* content: "\32"; */
 }
 .accordion__area .accordion__shape img {
   position: absolute;
@@ -7458,6 +7476,7 @@ ul {
 }
 .accordion__area.accordion__area .accordion-button:not(.collapsed):after {
   color: #97be23;
+  content: "\32";
 }
 .accordion__area.accordion__area .accordion-button:hover {
   background: 0 0;
@@ -7485,9 +7504,17 @@ ul {
   padding: 0 15px 24px;
 }
 
+.work-area-btn span {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #98bf1e;
+  color: #fff;
+  border-radius: 20px;
+}
+
 .work-area-btn a:hover {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   color: grey;
   margin: 0;
   padding: 0 15px 24px;
@@ -8170,10 +8197,12 @@ ul {
 }
 .campus_sec .about__image {
   position: relative;
+  margin-top: 70px;
 }
 .campus_sec .about__image .shape-1 {
   position: absolute;
-  bottom: 90px;
+  top: 50px;
+  bottom: 20px;
   right: 5px;
 }
 .campus_sec .about__content {
@@ -10197,7 +10226,7 @@ body.courses-grid-page
 }
 .qna-picture img {
   border-radius: 10px; /* Adjust the border-radius value as needed */
-  max-width: 90%; 
+  max-width: 100%; 
 }
 @media (max-width: 1200px) {
   .industry-connect-section .section-title-area-seven .section-pretitle {
