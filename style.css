@@ -4644,6 +4644,12 @@ ul {
   justify-content: start;
   align-items: center;
 }
+@media (max-width: 600px) {
+  .hero4__area {
+    background: url(assets/images/hero/1MB.jpg) center top no-repeat;
+  }
+}
+
 .hero4__area .container.hero4__width {
   width: 100vw;
   margin-left: 25%;
@@ -11706,7 +11712,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .student_satisfaction-section {
   /* background: url(assets/images/testimonial/bg.jpg) center top no-repeat; */
   background-size: cover;
-  padding-top: 10px;
+  padding-top: 0px;
   padding-bottom: 0px;
  
 }
