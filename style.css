@@ -4658,6 +4658,7 @@ ul {
 @media (max-width: 600px) {
   .hero4__area {
     background: url(assets/images/hero/1MB.jpg) center top no-repeat;
+    background-size: contain;
   }
 }
 
@@ -7503,9 +7504,17 @@ ul {
   padding: 0 15px 24px;
 }
 
+.work-area-btn span {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #98bf1e;
+  color: #fff;
+  border-radius: 20px;
+}
+
 .work-area-btn a:hover {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   color: grey;
   margin: 0;
   padding: 0 15px 24px;
