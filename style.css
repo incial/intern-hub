@@ -1351,9 +1351,34 @@ ul {
   
 
   } */
+
+  .hero4__area .container.hero4__width {
+    width: 100vw;
+    max-width: 800px;
+    margin-top: 280px;
+    display: flex;
+    margin-left: 0px !important;
+    justify-content: center !important;
+  }
  
+  .hero4__area .hero4__content .hero4-btn{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    border-radius: 50px !important;
+    background: #97be23 ;
+    padding: 8px 40px !important;
+    color: white;
+    display: inline-block;
+    box-shadow: 2px 2px 15px #97be23;
+  }
 
+  .hero4__area .hero4__content .hero4-btn:hover {
+    background: #84ae1e;
+    color: #fff9f1;
+    border:2px solid #97be23;
 
+  }
+  
 
 }
 .home-five.banner {
@@ -2221,6 +2246,17 @@ ul {
   .home-five.testimonials-section .testimonials-slider-navigation {
     bottom: 60px !important;
   }
+  .home-seven-btn {
+    margin-top: 25px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: #97be23 !important;
+    border: none;
+    padding: 8px 30px !important;
+    border-radius: 12px !important;
+    transition: background 300ms !important;
+    
+}
 }
 .home-five.blog-section {
   position: relative;
@@ -3805,7 +3841,7 @@ ul {
   background: #97be23;
   border: none;
   padding: 15px 40px;
-  border-radius: 5px;
+  border-radius: 12px;
   transition: background 300ms;
 }
 .home-seven-btn a {
@@ -4637,13 +4673,21 @@ ul {
 .hero4__area {
   overflow: hidden;
   position: relative;
-  background: url(assets/images/hero/01.jpg) center top no-repeat;
+  background: url(assets/images/hero/hero_desktop.jpg) center top no-repeat;
   background-size: cover;
   height: 595px;
   display: flex;
   justify-content: start;
   align-items: center;
 }
+@media (max-width: 600px) {
+  .hero4__area {
+
+    background: url(assets/images/hero/1MB.jpg) center top no-repeat;
+    background-size: contain;
+  }
+}
+
 .hero4__area .container.hero4__width {
   width: 100vw;
   margin-left: 25%;
@@ -4732,11 +4776,11 @@ ul {
   box-shadow: 2px 2px 15px #97be23;
 }
 .hero4__area .hero4__content .hero4-btn:hover {
-  background: white;
-  color: #97be23;
-  border: #97be23;
-  border-style: solid;
-  border-width: 3px;
+  background: #719419;
+  color: #fff9f1;
+  border:2px solid #97be23;
+  /* border-style: solid;
+  border-width: 3px; */
 }
 .hero4__area .hero4__image {
   padding-top: 90px;
@@ -7432,12 +7476,12 @@ ul {
 .accordion__area .accordion .accordion-header .accordion-button:focus {
   box-shadow: none;
 }
-.accordion__area
+/* .accordion__area
   .accordion
   .accordion-header
   .accordion-button.collapsed::after {
-  content: "\32";
-}
+   content: "\32"; 
+} */
 .accordion__area .accordion__shape img {
   position: absolute;
 }
@@ -7458,6 +7502,7 @@ ul {
 }
 .accordion__area.accordion__area .accordion-button:not(.collapsed):after {
   color: #97be23;
+  content: "\32";
 }
 .accordion__area.accordion__area .accordion-button:hover {
   background: 0 0;
@@ -7485,9 +7530,17 @@ ul {
   padding: 0 15px 24px;
 }
 
+.work-area-btn span {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #98bf1e;
+  color: #fff;
+  border-radius: 20px;
+}
+
 .work-area-btn a:hover {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   color: grey;
   margin: 0;
   padding: 0 15px 24px;
@@ -8170,10 +8223,12 @@ ul {
 }
 .campus_sec .about__image {
   position: relative;
+  margin-top: 70px;
 }
 .campus_sec .about__image .shape-1 {
   position: absolute;
-  bottom: 90px;
+  top: 50px;
+  bottom: 20px;
   right: 5px;
 }
 .campus_sec .about__content {
@@ -10197,7 +10252,7 @@ body.courses-grid-page
 }
 .qna-picture img {
   border-radius: 10px; /* Adjust the border-radius value as needed */
-  max-width: 90%; 
+  max-width: 100%; 
 }
 @media (max-width: 1200px) {
   .industry-connect-section .section-title-area-seven .section-pretitle {
@@ -11706,7 +11761,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .student_satisfaction-section {
   /* background: url(assets/images/testimonial/bg.jpg) center top no-repeat; */
   background-size: cover;
-  padding-top: 10px;
+  padding-top: 0px;
   padding-bottom: 0px;
  
 }
@@ -12202,6 +12257,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .react-footer .footer-top .footer-widget.footer-widget-2 {
   padding-left: 850px;
   padding-top: 150px;
+  /*padding-bottom: 180px;*/
+  padding-right: 150px;
 }
 
 /* Style for footer titles */

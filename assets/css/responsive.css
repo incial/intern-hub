@@ -466,7 +466,6 @@
   }
   .campus_sec .about__content {
     margin-right: 0;
-    margin-bottom: 50px;
   }
   .react-blog__area.blog__area.pb---120,
   .instructors___page.pb---140,
@@ -920,7 +919,9 @@
     padding: 10px 15px;
     margin: 10px 8px;
   }
-
+  /* .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"]{
+		display: none;
+	} */
   .pt---100 {
     padding-top: 60px;
   }
