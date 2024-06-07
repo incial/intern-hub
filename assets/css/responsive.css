@@ -298,6 +298,14 @@
     font-size: 50px;
     line-height: 60px;
   }
+  .hero4__content {
+    padding-top: 200px;
+    width: 100vw;
+    margin: 0;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: start;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -400,6 +408,14 @@
   .popular__course__area .course__item .course__card-icon .react__user {
     font-size: 16px;
   }
+  .hero4__content {
+    padding-top: 200px;
+    width: 100vw;
+    margin: 0;
+    margin-left: 15vw;
+    display: flex;
+    justify-content: start;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -455,7 +471,11 @@
     padding-left: 0;
   }
   .hero4__content {
-    padding-top: 100px;
+    padding-top: 200px;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .hero3__area .hero3__image {
@@ -709,6 +729,7 @@
   .react-course-filter .single-studies .inner-course .case-content .case-title {
     font-size: 20px;
   }
+
   .react-course-filter
     .single-studies
     .inner-course
@@ -803,6 +824,13 @@
 }
 
 @media screen and (max-width: 600px) {
+  .hero4__content {
+    padding-top: 200px;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
   .navLogo {
     height: 70px;
     margin-top: 5px;

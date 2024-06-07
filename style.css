@@ -111,10 +111,9 @@ img {
 }
 p {
   margin: 0 0 26px;
- 
-    text-align: justify;
-    /* font-size: 16px; */
-  
+
+  text-align: justify;
+  /* font-size: 16px; */
 }
 h1,
 h2,
@@ -215,7 +214,7 @@ ul {
 .react__title__section {
   padding-bottom: 30px;
 }
-.natureship{
+.natureship {
   font-size: 30px;
   font-weight: 700;
   color: #6a8b04;
@@ -635,8 +634,6 @@ ul {
   height: 0;
   padding: 0 10px;
   transition: 500ms;
-  
-
 }
 .react-header.react-header-four .search-form .search-input.show {
   padding: 5px 10px;
@@ -1340,7 +1337,7 @@ ul {
     font-size: 16px;
     line-height: 0 !important;
   }
-  .natureship{
+  .natureship {
     font-size: 22px;
     font-weight: 700;
     color: #6a8b04;
@@ -1360,12 +1357,12 @@ ul {
     margin-left: 0px !important;
     justify-content: center !important;
   }
- 
-  .hero4__area .hero4__content .hero4-btn{
+
+  .hero4__area .hero4__content .hero4-btn {
     font-size: 20px !important;
     font-weight: 500 !important;
     border-radius: 50px !important;
-    background: #97be23 ;
+    background: #97be23;
     padding: 8px 40px !important;
     color: white;
     display: inline-block;
@@ -1375,11 +1372,8 @@ ul {
   .hero4__area .hero4__content .hero4-btn:hover {
     background: #84ae1e;
     color: #fff9f1;
-    border:2px solid #97be23;
-
+    border: 2px solid #97be23;
   }
-  
-
 }
 .home-five.banner {
   position: relative;
@@ -1984,7 +1978,7 @@ ul {
 .home-five.trending-section-five .btn-area .all-course-btn:hover {
   background: #4d82ff;
 }
-.outcomesscroll-head{
+.outcomesscroll-head {
   color: #233913 !important;
   font-size: 23px;
   font-weight: 800;
@@ -2255,8 +2249,7 @@ ul {
     padding: 8px 30px !important;
     border-radius: 12px !important;
     transition: background 300ms !important;
-    
-}
+  }
 }
 .home-five.blog-section {
   position: relative;
@@ -4317,7 +4310,6 @@ ul {
 @media (max-width: 1400px) {
   .qna-section-seven .qna-picture {
     margin-right: 40px;
-    
   }
 }
 @media (max-width: 1200px) {
@@ -4332,7 +4324,6 @@ ul {
 @media (max-width: 1400px) {
   .qna-section-seven .wa-picture {
     margin-right: 40px;
-    
   }
 }
 @media (max-width: 1200px) {
@@ -4682,19 +4673,9 @@ ul {
 }
 @media (max-width: 600px) {
   .hero4__area {
-
     background: url(assets/images/hero/1MB.jpg) center top no-repeat;
     background-size: contain;
   }
-}
-
-.hero4__area .container.hero4__width {
-  width: 100vw;
-  margin-left: 25%;
-  max-width: 800px;
-  margin-top: 280px;
-  display: flex;
-  justify-content: start;
 }
 
 .hero4__area .container.hero4__width .row {
@@ -4778,7 +4759,7 @@ ul {
 .hero4__area .hero4__content .hero4-btn:hover {
   background: #719419;
   color: #fff9f1;
-  border:2px solid #97be23;
+  border: 2px solid #97be23;
   /* border-style: solid;
   border-width: 3px; */
 }
@@ -7029,7 +7010,7 @@ ul {
 .about2__area .about__image {
   position: relative;
 }
-.about__image img{
+.about__image img {
   border-radius: 15px;
 }
 .about2__area .react__shape__1 {
@@ -7439,7 +7420,6 @@ ul {
   margin-bottom: 10px;
   box-shadow: 0 20px 40px rgba(15, 18, 22, 0.1);
   border-radius: 6px;
-  
 }
 .accordion__area .accordion-button {
   padding: 20px 37px;
@@ -10252,7 +10232,7 @@ body.courses-grid-page
 }
 .qna-picture img {
   border-radius: 10px; /* Adjust the border-radius value as needed */
-  max-width: 100%; 
+  max-width: 100%;
 }
 @media (max-width: 1200px) {
   .industry-connect-section .section-title-area-seven .section-pretitle {
@@ -10276,7 +10256,6 @@ body.courses-grid-page
     transform: translateY(-20px);
   }
 }
-
 
 .react-contact-page h2.contact-title {
   font-size: 34px;
@@ -10417,7 +10396,7 @@ body.courses-grid-page
   margin-right: 25px;
 }
 .react-contact-page .address-sec li .icon img {
-  width: 30px;  /* Set your desired width */
+  width: 30px; /* Set your desired width */
   height: 30px; /* Set your desired height */
 }
 .react-contact-page .address-sec li .text {
@@ -11763,7 +11742,6 @@ body.event-page .react-upcoming__event .event__card .event_time {
   background-size: cover;
   padding-top: 0px;
   padding-bottom: 0px;
- 
 }
 .student_satisfaction-section .event__card .event__card--content {
   background: #fff;
@@ -11998,58 +11976,58 @@ body.event-page .react-upcoming__event .event__card .event_time {
   border: none;
   justify-content: center;
 }
-  @media (max-width: 576px) {
-    .high_quality-section .react-tab-gird .nav-tabs  {
-      display: block;
-      flex-wrap: wrap;
-      font-size: 5px;
-      font-weight: 600;
-    }
-    .high_quality-section .react-tab-gird .nav-tabs li a {
-
-      align-items: center;
-      margin: 0 12px;
-      font-size: 18px;
-      line-height: 1;
-      font-weight: 600;
-
-
-
-    }
-    .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"].owl-next {
-      left: auto;
-      right: -7px;
-    }
-    .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"].owl-prev {
-      left: -7px;
-      right: auto;
-    }
-    .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"] {
-      position: absolute;
-      display: inline-block;
-      font-size: 0;
-      width: 40px;
-      height: 40px;
-      line-height: 4px;
-      color: #00306e;
-      background: #fff;
-      border-radius: 100%;
-      transition: all 0.5s ease 0s;
-      box-shadow: -6px 20px 30px rgba(15, 18, 22, 0.06);
-    }
-    .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"]:before {
-      content: "\35";
-      font-family: ElegantIcons;
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 24px;
-      font-weight: 700;
-    }
+@media (max-width: 576px) {
+  .high_quality-section .react-tab-gird .nav-tabs {
+    display: block;
+    flex-wrap: wrap;
+    font-size: 5px;
+    font-weight: 600;
   }
+  .high_quality-section .react-tab-gird .nav-tabs li a {
+    align-items: center;
+    margin: 0 12px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 600;
+  }
+  .student_satisfaction-section
+    .owl-carousel
+    .owl-nav
+    [class*="owl-"].owl-next {
+    left: auto;
+    right: -7px;
+  }
+  .student_satisfaction-section
+    .owl-carousel
+    .owl-nav
+    [class*="owl-"].owl-prev {
+    left: -7px;
+    right: auto;
+  }
+  .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"] {
+    position: absolute;
+    display: inline-block;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 4px;
+    color: #00306e;
+    background: #fff;
+    border-radius: 100%;
+    transition: all 0.5s ease 0s;
+    box-shadow: -6px 20px 30px rgba(15, 18, 22, 0.06);
+  }
+  .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"]:before {
+    content: "\35";
+    font-family: ElegantIcons;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
 
-
-  
 .high_quality-section .react-tab-gird .nav-tabs li a {
   display: flex;
   background: #fff;
@@ -12086,7 +12064,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   line-height: 0;
 }
 .react-footer {
-  position:relative;
+  position: relative;
   background-color: #0f1216;
   color: #fff;
 }
@@ -12725,4 +12703,9 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .navLogo {
   height: 90px;
   margin-top: 15px;
+}
+
+.hero4__content {
+  margin-top: 220px;
+  margin-left: 26vw;
 }
