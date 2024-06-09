@@ -117,7 +117,7 @@ firebase
       colorIndex = (colorIndex + 1) % cardColors.length;
     }
     projectContainer.innerHTML = buckets;
-    updateCardHeight();
+    // updateCardHeight();
   });
 
   function updateCardHeight(){
