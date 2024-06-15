@@ -117,4 +117,19 @@ firebase
       colorIndex = (colorIndex + 1) % cardColors.length;
     }
     projectContainer.innerHTML = buckets;
+    // updateCardHeight();
   });
+
+  function updateCardHeight(){
+    let maxHeight = 0;
+    document.querySelectorAll(".project-box").forEach(card => {
+      if(card.offsetHeight > maxHeight) {
+        maxHeight = card.offsetHeight;
+      }
+    });
+    document.querySelectorAll(".project-box").forEach(card => {
+      card.style.height = `${maxHeight}px`;
+    });
+  }
+
+  window.onresize = updateCardHeight;
