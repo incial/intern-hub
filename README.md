@@ -14,12 +14,11 @@
 <sub>Discover internships, programs, and career pathways — all in one place.</sub>
 
 <br><br>
-      <a href="https://intern-hub-sable.vercel.app">
-    <img src="https://img.shields.io/badge/Deployed%20on-Vercel-000?logo=vercel
-">
+  <a href="https://intern-hub-sable.vercel.app">
+    <img alt="Deployed on Vercel" src="https://img.shields.io/badge/Deployed%20on-Vercel-000?logo=vercel&logoColor=white">
   </a>
   <a href="#">
-    <img alt="GitHub stars" src="https://img.shields.io/badge/Beginner-Friendly-6f42c1">
+    <img alt="Beginner Friendly" src="https://img.shields.io/badge/Beginner-Friendly-6f42c1">
   </a>
   <a href="#">
     <img alt="GitHub stars" src="https://img.shields.io/badge/Maintained-NO-ff0000">
