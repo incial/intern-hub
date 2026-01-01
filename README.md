@@ -3,8 +3,8 @@
 <br><br>
 
   <picture>
-    <source srcset="assets/images/readme/readme-header.svg">
-    <img src="assets/images/readme/intern-hub-logo.svg" alt="Intern Hub Logo" width="600">
+    <source srcset="assets/images/Readme/Readme-Header.svg">
+    <img src="assets/images/Readme/Readme-Header.svg" alt="Intern Hub Logo" width="1000">
   </picture>
 
 <br>
@@ -15,7 +15,7 @@
 
 <br><br>
       <a href="https://intern-hub-sable.vercel.app">
-    <img alt="GitHub stars" src="https://img.shields.io/badge/Deployed%20on-Vercel-000?logo=vercel
+    <img src="https://img.shields.io/badge/Deployed%20on-Vercel-000?logo=vercel
 ">
   </a>
   <a href="#">
